@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aquí tengo estilos generales*/
+
+.img-container
+{
+    display: flex;
+}
+
+.img-container img
+{
+    width: 100%;
+
+}
+
+/*Aquí tengo los estilos del header*/
+
+
+header 
+{
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo img 
+{
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/*Aquí estan los estilos del hero*/
+
+#hero
+{
+    position: relative;
+}
+#hero #computadora
+{
+    display: inline-block;
+    width: 100%;
+}   
+
+#hero .informacion-container
+{
+    position: absolute;
+    display: flex;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#hero .informacion-container #foto img
+{
+    width: 200px;
+    border-radius: 100%;
+    margin-top: -60px;
+}
+
+#hero .informacion-container .informacion
+{
+    margin-left: 20px;
+    font-weight: bold;
+}
+#hero .informacion-container .informacion span
+{
+    color: #b5b5b5;
+    display: inline-block;
+    margin-bottom: 70px;
+    
+}
+
+
