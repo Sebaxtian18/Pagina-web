@@ -66,6 +66,11 @@ header
     width: 200px;
     border-radius: 100%;
     margin-top: -60px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    width: calc(100% - 200px);
+    height: calc(100% - 200px);
 }
 
 #hero .informacion-container .informacion
