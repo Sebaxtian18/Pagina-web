@@ -69,8 +69,6 @@ header
     height: 200px;
     max-width: 200px;
     max-height: 200px;
-    width: calc(100% - 200px);
-    height: calc(100% - 200px);
 }
 
 #hero .informacion-container .informacion
@@ -78,6 +76,7 @@ header
     margin-left: 20px;
     font-weight: bold;
     width: calc(100% - 200px);
+    height: calc(100% - 200px);
 }
 #hero .informacion-container .informacion span
 {
